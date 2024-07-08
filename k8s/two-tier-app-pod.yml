@@ -8,7 +8,7 @@ spec:
     image: trainwithshubham/flaskapp:latest
     env:
       - name: MYSQL_HOST
-        value: "35.220.156.466"          # this is your mysql's service clusture IP, Make sure to change it with yours
+        value: "35.220.156.46"          # this is your mysql's service clusture IP, Make sure to change it with yours
       - name: MYSQL_PASSWORD
         value: "admin"
       - name: MYSQL_USER
