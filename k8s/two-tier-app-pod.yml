@@ -8,7 +8,7 @@ spec:
     image: trainwithshubham/flaskapp:latest
     env:
       - name: MYSQL_HOST
-        value: "34.96.230.189"          # this is your mysql's service clusture IP, Make sure to change it with yours
+        value: "34.118.229.21"          # this is your mysql's service clusture IP, Make sure to change it with yours
       - name: MYSQL_PASSWORD
         value: "admin"
       - name: MYSQL_USER
@@ -17,5 +17,4 @@ spec:
         value: "mydb"
     ports:
       - containerPort: 5000
-    imagePullPolicy: Always
-    
+    imagePullPolicy: Always:q
